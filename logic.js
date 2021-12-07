@@ -11,7 +11,9 @@ function exportMaps(outPath,textureSize) {
 
 
 function doExportMaps() {
-  var saveDir = "D:/FishMan_SPTutorial/output"; // 输出贴图的目标路径 
+  // 从配置中读取输出的路径
+  var saveDir = alg.settings.value("exportPath", "");
+  //var saveDir = "D:/FishMan_SPTutorial/output"; // 输出贴图的目标路径 
   var textureSize = 1024 ;// 输出贴图的大小
   alg.log.info(saveDir)
   exportMaps(saveDir, textureSize); //
