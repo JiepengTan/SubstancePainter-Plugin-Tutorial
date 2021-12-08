@@ -6,7 +6,7 @@
 
 对应的是下面这个gif的第2，3 步 效果
 
-![](https://pic2.zhimg.com/80/v2-e54c13417a4c9dd5f36db0fcec531c4e_1440w.gif)
+![](https://github.com/JiepengTan/JiepengTan.github.io/blob/master/assets/img/blog/SubstancePainterPluginTutorial/common/01_workflow_low.gif?raw=true)
 
 对应的教程：
 [Substance Painter 插件开发教程 01](https://zhuanlan.zhihu.com/p/442473363)
