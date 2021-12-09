@@ -9,8 +9,11 @@
 ![](https://github.com/JiepengTan/JiepengTan.github.io/blob/master/assets/img/blog/SubstancePainterPluginTutorial/common/01_workflow_low.gif?raw=true)
 
 对应的教程：
-[Substance Painter 插件开发教程 01](https://zhuanlan.zhihu.com/p/442473363)
-
+- [01 SP JS 插件 基础](https://zhuanlan.zhihu.com/p/442473363)    
+- [02 SP python插件 批量生成项目文件](https://zhuanlan.zhihu.com/p/443083338)    
+- 03 SP JS插件 批量烘焙并导出贴图    
+- 04 unity 批量处理 模型贴图，并生成 Prefab    
+- 05 houdini python 脚本基础教程    
 
 ## 使用本插件
 1. [下载本工程(TODO 当前没有完成)](https://codeload.github.com/JiepengTan/SubstancePainter-Plugin-Tutorial/zip/refs/heads/main)
@@ -24,4 +27,4 @@
 
 
 ## License
-Distributed under the MIT license. 
+MIT license. 
