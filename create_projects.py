@@ -1,3 +1,6 @@
+# author : jiepengtan
+# https://github.com/JiepengTan/SubstancePainter-Plugin-Tutorial
+
 from PySide2 import QtWidgets, QtCore
 import substance_painter.project
 import substance_painter.ui
@@ -50,8 +53,17 @@ class CreateProjectByReloadMesh:
         substance_painter.project.save_as(self.targetProjectFile)
 
     def create_projects(self,targetMeshName):
-        # 设置输出路径，后面我们再调整为从配置中读取
-        self.targetDir = "D:/temp/TestFbxs/input"
+        # 从约定好的文件中读取数据
+        dstFile ="d://_fishman_sp_tutorial_input_dir.data"
+        if(not os.path.exists(dstFile)):
+            return
+        fo = open(dstFile, "r+")
+        self.targetDir = fo.readline();
+        fo.close()
+        Log(self.targetDir)
+
+        # self.targetDir = "D:/temp/TestFbxs/input"
+
         rootdir = self.targetDir
         files = os.listdir(rootdir) 
         # 得到所有需要处理的 低模路径

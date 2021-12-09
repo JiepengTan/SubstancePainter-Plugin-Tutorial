@@ -1,3 +1,6 @@
+// author : jiepengtan
+// https://github.com/JiepengTan/SubstancePainter-Plugin-Tutorial
+
 import AlgWidgets 2.0
 import QtQuick.Dialogs 1.0
 import "logic.js" as LogicJS
